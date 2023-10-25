@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package blowhorn;
+
+service Blowhorn {
+  rpc Blow (Announcement) returns (Anounce) {}
+}
+
+message Announcement {
+  string announce = 1;
+  string advertiser = 2;
+  int32 volume_level = 2;
+}
+
+message Anounce {
+  string confirmation = 1;
+}
+
