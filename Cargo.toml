@@ -2,4 +2,4 @@
 
 members = [
 "tcp_echo_server", "tcp_client", "tcp_echo_random","lbst","async_example", "smartpointer"
-]
+, "guessing_game"]
